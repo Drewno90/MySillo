@@ -35,6 +35,11 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-actuator")
     // end::actuator[]
     testCompile("junit:junit")
+    compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+    testCompile("org.springframework.security:spring-security-test")
+    compile("org.springframework.boot:spring-boot-starter-security")
 }
 group 'MySillo'
 version '1.0-SNAPSHOT'
